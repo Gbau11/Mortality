@@ -1,0 +1,3232 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (prueba)' inline='true' name='federated.17rynkq1ya08xa1h7td6q12uj52u' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='prueba' name='excel-direct.1gb5kcm07vipds1784ma70gucn78'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Gonzalo/Desktop/IRONHACK/CURSO/SEMANA 5/Proyecto II/Mortality/csv/prueba.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1gb5kcm07vipds1784ma70gucn78' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BM3894:no:A1:BM3894:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Obesity' ordinal='3' />
+            <column datatype='real' name='Unemployment' ordinal='4' />
+            <column datatype='integer' name='Meningitis' ordinal='5' />
+            <column datatype='integer' name='Alzheimers_Disease_and_Other_Dementias' ordinal='6' />
+            <column datatype='integer' name='Parkinsons_Disease' ordinal='7' />
+            <column datatype='integer' name='Nutritional_Deficiencies' ordinal='8' />
+            <column datatype='integer' name='Malaria' ordinal='9' />
+            <column datatype='integer' name='Drowning' ordinal='10' />
+            <column datatype='integer' name='Interpersonal_Violence' ordinal='11' />
+            <column datatype='integer' name='Maternal_Disorders' ordinal='12' />
+            <column datatype='integer' name='HIV_AIDS' ordinal='13' />
+            <column datatype='integer' name='Drug_Use_Disorders' ordinal='14' />
+            <column datatype='integer' name='Tuberculosis' ordinal='15' />
+            <column datatype='integer' name='Cardiovascular_Diseases' ordinal='16' />
+            <column datatype='integer' name='Lower_Respiratory_Infections' ordinal='17' />
+            <column datatype='integer' name='Neonatal_Disorders' ordinal='18' />
+            <column datatype='integer' name='Alcohol_Use_Disorders' ordinal='19' />
+            <column datatype='integer' name='Self-harm' ordinal='20' />
+            <column datatype='integer' name='Exposure_to_Forces_of_Nature' ordinal='21' />
+            <column datatype='integer' name='Diarrheal_Diseases' ordinal='22' />
+            <column datatype='integer' name='Environmental_Heat_and_Cold_Exposure' ordinal='23' />
+            <column datatype='integer' name='Neoplasms' ordinal='24' />
+            <column datatype='integer' name='Conflict_and_Terrorism' ordinal='25' />
+            <column datatype='integer' name='Diabetes_Mellitus' ordinal='26' />
+            <column datatype='integer' name='Chronic_Kidney_Disease' ordinal='27' />
+            <column datatype='integer' name='Poisonings' ordinal='28' />
+            <column datatype='integer' name='Protein-Energy_Malnutrition' ordinal='29' />
+            <column datatype='integer' name='Road_Injuries' ordinal='30' />
+            <column datatype='integer' name='Chronic_Respiratory_Diseases' ordinal='31' />
+            <column datatype='integer' name='Cirrhosis_and_Other_Chronic_Liver_Diseases' ordinal='32' />
+            <column datatype='integer' name='Digestive_Diseases' ordinal='33' />
+            <column datatype='integer' name='Fire' ordinal='34' />
+            <column datatype='integer' name='Acute_Hepatitis' ordinal='35' />
+            <column datatype='integer' name='Total' ordinal='36' />
+            <column datatype='real' name='GDP' ordinal='37' />
+            <column datatype='real' name='GDP_cap' ordinal='38' />
+            <column datatype='real' name='lib_lvl' ordinal='39' />
+            <column datatype='real' name='CO2_cap' ordinal='40' />
+            <column datatype='integer' name='Population' ordinal='41' />
+            <column datatype='real' name='Alzheimers_Disease_and_Other_Dementias_cap' ordinal='42' />
+            <column datatype='real' name='Acute_Hepatitis_cap' ordinal='43' />
+            <column datatype='real' name='Digestive_Diseases_cap' ordinal='44' />
+            <column datatype='real' name='Cirrhosis_and_Other_Chronic_Liver_Diseases_cap' ordinal='45' />
+            <column datatype='real' name='Poisonings_cap' ordinal='46' />
+            <column datatype='real' name='Road_Injuries_cap' ordinal='47' />
+            <column datatype='real' name='Conflict_and_Terrorism_cap' ordinal='48' />
+            <column datatype='real' name='Environmental_Heat_and_Cold_Exposure_cap' ordinal='49' />
+            <column datatype='real' name='Alcohol_Use_Disorders_cap' ordinal='50' />
+            <column datatype='real' name='HIV_AIDS_cap' ordinal='51' />
+            <column datatype='real' name='Nutritional_Deficiencies_cap' ordinal='52' />
+            <column datatype='real' name='Interpersonal_Violence_cap' ordinal='53' />
+            <column datatype='real' name='Neoplasms_cap' ordinal='54' />
+            <column datatype='real' name='Neonatal_Disorders_cap' ordinal='55' />
+            <column datatype='real' name='Respiratory_Diseases_cap' ordinal='56' />
+            <column datatype='real' name='Tuberculosis_cap' ordinal='57' />
+            <column datatype='real' name='Self-harm_cap' ordinal='58' />
+            <column datatype='real' name='Diabetes_Mellitus_cap' ordinal='59' />
+            <column datatype='real' name='Cardiovascular_Diseases_cap' ordinal='60' />
+            <column datatype='real' name='Chronic_Respiratory_Diseases_cap' ordinal='61' />
+            <column datatype='real' name='Drug_Use_Disorders_cap' ordinal='62' />
+            <column datatype='real' name='mortality' ordinal='63' />
+            <column datatype='integer' name='Respiratory Diseases' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1gb5kcm07vipds1784ma70gucn78' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BM3894:no:A1:BM3894:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Country' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='real' name='Obesity' ordinal='3' />
+            <column datatype='real' name='Unemployment' ordinal='4' />
+            <column datatype='integer' name='Meningitis' ordinal='5' />
+            <column datatype='integer' name='Alzheimers_Disease_and_Other_Dementias' ordinal='6' />
+            <column datatype='integer' name='Parkinsons_Disease' ordinal='7' />
+            <column datatype='integer' name='Nutritional_Deficiencies' ordinal='8' />
+            <column datatype='integer' name='Malaria' ordinal='9' />
+            <column datatype='integer' name='Drowning' ordinal='10' />
+            <column datatype='integer' name='Interpersonal_Violence' ordinal='11' />
+            <column datatype='integer' name='Maternal_Disorders' ordinal='12' />
+            <column datatype='integer' name='HIV_AIDS' ordinal='13' />
+            <column datatype='integer' name='Drug_Use_Disorders' ordinal='14' />
+            <column datatype='integer' name='Tuberculosis' ordinal='15' />
+            <column datatype='integer' name='Cardiovascular_Diseases' ordinal='16' />
+            <column datatype='integer' name='Lower_Respiratory_Infections' ordinal='17' />
+            <column datatype='integer' name='Neonatal_Disorders' ordinal='18' />
+            <column datatype='integer' name='Alcohol_Use_Disorders' ordinal='19' />
+            <column datatype='integer' name='Self-harm' ordinal='20' />
+            <column datatype='integer' name='Exposure_to_Forces_of_Nature' ordinal='21' />
+            <column datatype='integer' name='Diarrheal_Diseases' ordinal='22' />
+            <column datatype='integer' name='Environmental_Heat_and_Cold_Exposure' ordinal='23' />
+            <column datatype='integer' name='Neoplasms' ordinal='24' />
+            <column datatype='integer' name='Conflict_and_Terrorism' ordinal='25' />
+            <column datatype='integer' name='Diabetes_Mellitus' ordinal='26' />
+            <column datatype='integer' name='Chronic_Kidney_Disease' ordinal='27' />
+            <column datatype='integer' name='Poisonings' ordinal='28' />
+            <column datatype='integer' name='Protein-Energy_Malnutrition' ordinal='29' />
+            <column datatype='integer' name='Road_Injuries' ordinal='30' />
+            <column datatype='integer' name='Chronic_Respiratory_Diseases' ordinal='31' />
+            <column datatype='integer' name='Cirrhosis_and_Other_Chronic_Liver_Diseases' ordinal='32' />
+            <column datatype='integer' name='Digestive_Diseases' ordinal='33' />
+            <column datatype='integer' name='Fire' ordinal='34' />
+            <column datatype='integer' name='Acute_Hepatitis' ordinal='35' />
+            <column datatype='integer' name='Total' ordinal='36' />
+            <column datatype='real' name='GDP' ordinal='37' />
+            <column datatype='real' name='GDP_cap' ordinal='38' />
+            <column datatype='real' name='lib_lvl' ordinal='39' />
+            <column datatype='real' name='CO2_cap' ordinal='40' />
+            <column datatype='integer' name='Population' ordinal='41' />
+            <column datatype='real' name='Alzheimers_Disease_and_Other_Dementias_cap' ordinal='42' />
+            <column datatype='real' name='Acute_Hepatitis_cap' ordinal='43' />
+            <column datatype='real' name='Digestive_Diseases_cap' ordinal='44' />
+            <column datatype='real' name='Cirrhosis_and_Other_Chronic_Liver_Diseases_cap' ordinal='45' />
+            <column datatype='real' name='Poisonings_cap' ordinal='46' />
+            <column datatype='real' name='Road_Injuries_cap' ordinal='47' />
+            <column datatype='real' name='Conflict_and_Terrorism_cap' ordinal='48' />
+            <column datatype='real' name='Environmental_Heat_and_Cold_Exposure_cap' ordinal='49' />
+            <column datatype='real' name='Alcohol_Use_Disorders_cap' ordinal='50' />
+            <column datatype='real' name='HIV_AIDS_cap' ordinal='51' />
+            <column datatype='real' name='Nutritional_Deficiencies_cap' ordinal='52' />
+            <column datatype='real' name='Interpersonal_Violence_cap' ordinal='53' />
+            <column datatype='real' name='Neoplasms_cap' ordinal='54' />
+            <column datatype='real' name='Neonatal_Disorders_cap' ordinal='55' />
+            <column datatype='real' name='Respiratory_Diseases_cap' ordinal='56' />
+            <column datatype='real' name='Tuberculosis_cap' ordinal='57' />
+            <column datatype='real' name='Self-harm_cap' ordinal='58' />
+            <column datatype='real' name='Diabetes_Mellitus_cap' ordinal='59' />
+            <column datatype='real' name='Cardiovascular_Diseases_cap' ordinal='60' />
+            <column datatype='real' name='Chronic_Respiratory_Diseases_cap' ordinal='61' />
+            <column datatype='real' name='Drug_Use_Disorders_cap' ordinal='62' />
+            <column datatype='real' name='mortality' ordinal='63' />
+            <column datatype='integer' name='Respiratory Diseases' ordinal='64' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BM3894:no:A1:BM3894:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LES_RES_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Obesity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Obesity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Obesity</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unemployment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unemployment]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Unemployment</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meningitis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Meningitis]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Meningitis</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alzheimers_Disease_and_Other_Dementias</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alzheimers_Disease_and_Other_Dementias]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alzheimers_Disease_and_Other_Dementias</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parkinsons_Disease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Parkinsons_Disease]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Parkinsons_Disease</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nutritional_Deficiencies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nutritional_Deficiencies]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nutritional_Deficiencies</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Malaria</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Malaria]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Malaria</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drowning</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drowning]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Drowning</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interpersonal_Violence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interpersonal_Violence]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Interpersonal_Violence</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maternal_Disorders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maternal_Disorders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Maternal_Disorders</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIV_AIDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HIV_AIDS]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HIV_AIDS</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug_Use_Disorders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Drug_Use_Disorders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Drug_Use_Disorders</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuberculosis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tuberculosis]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Tuberculosis</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cardiovascular_Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cardiovascular_Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cardiovascular_Diseases</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lower_Respiratory_Infections</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Lower_Respiratory_Infections]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Lower_Respiratory_Infections</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neonatal_Disorders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Neonatal_Disorders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Neonatal_Disorders</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcohol_Use_Disorders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alcohol_Use_Disorders]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alcohol_Use_Disorders</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self-harm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Self-harm]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Self-harm</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Exposure_to_Forces_of_Nature</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Exposure_to_Forces_of_Nature]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Exposure_to_Forces_of_Nature</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diarrheal_Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diarrheal_Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Diarrheal_Diseases</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Environmental_Heat_and_Cold_Exposure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Environmental_Heat_and_Cold_Exposure]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Environmental_Heat_and_Cold_Exposure</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neoplasms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Neoplasms]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Neoplasms</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conflict_and_Terrorism</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conflict_and_Terrorism]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Conflict_and_Terrorism</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetes_Mellitus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Diabetes_Mellitus]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Diabetes_Mellitus</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chronic_Kidney_Disease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chronic_Kidney_Disease]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chronic_Kidney_Disease</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poisonings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Poisonings]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Poisonings</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Protein-Energy_Malnutrition</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Protein-Energy_Malnutrition]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Protein-Energy_Malnutrition</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road_Injuries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Road_Injuries]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Road_Injuries</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chronic_Respiratory_Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Chronic_Respiratory_Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chronic_Respiratory_Diseases</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cirrhosis_and_Other_Chronic_Liver_Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Cirrhosis_and_Other_Chronic_Liver_Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cirrhosis_and_Other_Chronic_Liver_Diseases</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Digestive_Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Digestive_Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Digestive_Diseases</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fire]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Fire</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acute_Hepatitis</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Acute_Hepatitis]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Acute_Hepatitis</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GDP</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GDP_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>GDP_cap</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lib_lvl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lib_lvl]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>lib_lvl</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CO2_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CO2_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>CO2_cap</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alzheimers_Disease_and_Other_Dementias_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Alzheimers_Disease_and_Other_Dementias_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alzheimers_Disease_and_Other_Dementias_cap</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acute_Hepatitis_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Acute_Hepatitis_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Acute_Hepatitis_cap</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Digestive_Diseases_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Digestive_Diseases_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Digestive_Diseases_cap</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cirrhosis_and_Other_Chronic_Liver_Diseases_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cirrhosis_and_Other_Chronic_Liver_Diseases_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cirrhosis_and_Other_Chronic_Liver_Diseases_cap</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poisonings_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Poisonings_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Poisonings_cap</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Road_Injuries_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Road_Injuries_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Road_Injuries_cap</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conflict_and_Terrorism_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Conflict_and_Terrorism_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Conflict_and_Terrorism_cap</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Environmental_Heat_and_Cold_Exposure_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Environmental_Heat_and_Cold_Exposure_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Environmental_Heat_and_Cold_Exposure_cap</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alcohol_Use_Disorders_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Alcohol_Use_Disorders_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alcohol_Use_Disorders_cap</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HIV_AIDS_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HIV_AIDS_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>HIV_AIDS_cap</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nutritional_Deficiencies_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nutritional_Deficiencies_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nutritional_Deficiencies_cap</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interpersonal_Violence_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Interpersonal_Violence_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Interpersonal_Violence_cap</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neoplasms_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neoplasms_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Neoplasms_cap</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neonatal_Disorders_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neonatal_Disorders_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Neonatal_Disorders_cap</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Respiratory_Diseases_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Respiratory_Diseases_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Respiratory_Diseases_cap</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tuberculosis_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tuberculosis_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Tuberculosis_cap</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Self-harm_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Self-harm_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Self-harm_cap</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Diabetes_Mellitus_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Diabetes_Mellitus_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Diabetes_Mellitus_cap</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cardiovascular_Diseases_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cardiovascular_Diseases_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Cardiovascular_Diseases_cap</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Chronic_Respiratory_Diseases_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Chronic_Respiratory_Diseases_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Chronic_Respiratory_Diseases_cap</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drug_Use_Disorders_cap</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Drug_Use_Disorders_cap]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Drug_Use_Disorders_cap</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mortality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mortality]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>mortality</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Respiratory Diseases</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Respiratory Diseases]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Respiratory Diseases</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Acute Hepatitis' datatype='integer' name='[Acute_Hepatitis]' role='measure' type='quantitative' />
+      <column caption='Acute Hepatitis cap' datatype='real' name='[Acute_Hepatitis_cap]' role='measure' type='quantitative' />
+      <column caption='Alcohol Use Disorders' datatype='integer' name='[Alcohol_Use_Disorders]' role='measure' type='quantitative' />
+      <column caption='Alcohol Use Disorders cap' datatype='real' name='[Alcohol_Use_Disorders_cap]' role='measure' type='quantitative' />
+      <column caption='Alzheimers Disease and Other Dementias' datatype='integer' name='[Alzheimers_Disease_and_Other_Dementias]' role='measure' type='quantitative' />
+      <column caption='Alzheimers Disease and Other Dementias cap' datatype='real' name='[Alzheimers_Disease_and_Other_Dementias_cap]' role='measure' type='quantitative' />
+      <column caption='CO2 cap' datatype='real' name='[CO2_cap]' role='measure' type='quantitative' />
+      <column caption='Cardiovascular Diseases' datatype='integer' name='[Cardiovascular_Diseases]' role='measure' type='quantitative' />
+      <column caption='Cardiovascular Diseases cap' datatype='real' name='[Cardiovascular_Diseases_cap]' role='measure' type='quantitative' />
+      <column caption='Chronic Kidney Disease' datatype='integer' name='[Chronic_Kidney_Disease]' role='measure' type='quantitative' />
+      <column caption='Chronic Respiratory Diseases' datatype='integer' name='[Chronic_Respiratory_Diseases]' role='measure' type='quantitative' />
+      <column caption='Chronic Respiratory Diseases cap' datatype='real' name='[Chronic_Respiratory_Diseases_cap]' role='measure' type='quantitative' />
+      <column caption='Cirrhosis and Other Chronic Liver Diseases' datatype='integer' name='[Cirrhosis_and_Other_Chronic_Liver_Diseases]' role='measure' type='quantitative' />
+      <column caption='Cirrhosis and Other Chronic Liver Diseases cap' datatype='real' name='[Cirrhosis_and_Other_Chronic_Liver_Diseases_cap]' role='measure' type='quantitative' />
+      <column caption='Conflict and Terrorism' datatype='integer' name='[Conflict_and_Terrorism]' role='measure' type='quantitative' />
+      <column caption='Conflict and Terrorism cap' datatype='real' name='[Conflict_and_Terrorism_cap]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Diabetes Mellitus' datatype='integer' name='[Diabetes_Mellitus]' role='measure' type='quantitative' />
+      <column caption='Diabetes Mellitus cap' datatype='real' name='[Diabetes_Mellitus_cap]' role='measure' type='quantitative' />
+      <column caption='Diarrheal Diseases' datatype='integer' name='[Diarrheal_Diseases]' role='measure' type='quantitative' />
+      <column caption='Digestive Diseases' datatype='integer' name='[Digestive_Diseases]' role='measure' type='quantitative' />
+      <column caption='Digestive Diseases cap' datatype='real' name='[Digestive_Diseases_cap]' role='measure' type='quantitative' />
+      <column caption='Drug Use Disorders' datatype='integer' name='[Drug_Use_Disorders]' role='measure' type='quantitative' />
+      <column caption='Drug Use Disorders cap' datatype='real' name='[Drug_Use_Disorders_cap]' role='measure' type='quantitative' />
+      <column caption='Environmental Heat and Cold Exposure' datatype='integer' name='[Environmental_Heat_and_Cold_Exposure]' role='measure' type='quantitative' />
+      <column caption='Environmental Heat and Cold Exposure cap' datatype='real' name='[Environmental_Heat_and_Cold_Exposure_cap]' role='measure' type='quantitative' />
+      <column caption='Exposure to Forces of Nature' datatype='integer' name='[Exposure_to_Forces_of_Nature]' role='measure' type='quantitative' />
+      <column caption='GDP cap' datatype='real' name='[GDP_cap]' role='measure' type='quantitative' />
+      <column caption='Hiv Aids' datatype='integer' name='[HIV_AIDS]' role='measure' type='quantitative' />
+      <column caption='HIV AIDS cap' datatype='real' name='[HIV_AIDS_cap]' role='measure' type='quantitative' />
+      <column caption='Interpersonal Violence' datatype='integer' name='[Interpersonal_Violence]' role='measure' type='quantitative' />
+      <column caption='Interpersonal Violence cap' datatype='real' name='[Interpersonal_Violence_cap]' role='measure' type='quantitative' />
+      <column caption='Lower Respiratory Infections' datatype='integer' name='[Lower_Respiratory_Infections]' role='measure' type='quantitative' />
+      <column caption='Maternal Disorders' datatype='integer' name='[Maternal_Disorders]' role='measure' type='quantitative' />
+      <column caption='Neonatal Disorders' datatype='integer' name='[Neonatal_Disorders]' role='measure' type='quantitative' />
+      <column caption='Neonatal Disorders cap' datatype='real' name='[Neonatal_Disorders_cap]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+      <column caption='Neoplasms cap' datatype='real' name='[Neoplasms_cap]' role='measure' type='quantitative' />
+      <column caption='Nutritional Deficiencies' datatype='integer' name='[Nutritional_Deficiencies]' role='measure' type='quantitative' />
+      <column caption='Nutritional Deficiencies cap' datatype='real' name='[Nutritional_Deficiencies_cap]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Obesity]' role='measure' type='quantitative' />
+      <column caption='Parkinsons Disease' datatype='integer' name='[Parkinsons_Disease]' role='measure' type='quantitative' />
+      <column caption='Poisonings cap' datatype='real' name='[Poisonings_cap]' role='measure' type='quantitative' />
+      <column caption='Protein-Energy Malnutrition' datatype='integer' name='[Protein-Energy_Malnutrition]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Respiratory Diseases]' role='measure' type='quantitative' />
+      <column caption='Respiratory Diseases cap' datatype='real' name='[Respiratory_Diseases_cap]' role='measure' type='quantitative' />
+      <column caption='Road Injuries' datatype='integer' name='[Road_Injuries]' role='measure' type='quantitative' />
+      <column caption='Road Injuries cap' datatype='real' name='[Road_Injuries_cap]' role='measure' type='quantitative' />
+      <column caption='Self-harm cap' datatype='real' name='[Self-harm_cap]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+      <column caption='Tuberculosis cap' datatype='real' name='[Tuberculosis_cap]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_B9AB058D512E405B82B25BB8465E1F8D]' role='measure' type='quantitative' />
+      <column caption='Lib Lvl' datatype='real' name='[lib_lvl]' role='measure' type='quantitative' />
+      <column-instance column='[Total]' derivation='Attribute' name='[attr:Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cardiovascular_Diseases]' derivation='Avg' name='[avg:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neoplasms]' derivation='Avg' name='[avg:Neoplasms:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neoplasms_cap]' derivation='Avg' name='[avg:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Obesity]' derivation='Avg' name='[avg:Obesity:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Respiratory_Diseases_cap]' derivation='Avg' name='[avg:Respiratory_Diseases_cap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total]' derivation='Avg' name='[avg:Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[cum:sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Sum' ordering-type='Rows' type='CumTotal' />
+      </column-instance>
+      <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[diff:sum:Respiratory Diseases:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cardiovascular_Diseases_cap]' derivation='Sum' name='[sum:Cardiovascular_Diseases_cap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Chronic_Respiratory_Diseases]' derivation='Sum' name='[sum:Chronic_Respiratory_Diseases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neonatal_Disorders]' derivation='Sum' name='[sum:Neonatal_Disorders:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neoplasms]' derivation='Sum' name='[sum:Neoplasms:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Neoplasms_cap]' derivation='Sum' name='[sum:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Obesity]' derivation='Sum' name='[sum:Obesity:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[sum:Respiratory Diseases:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Respiratory_Diseases_cap]' derivation='Sum' name='[sum:Respiratory_Diseases_cap:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[win:sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative'>
+        <table-calc aggregation='Avg' from='-2' ordering-type='Rows' to='0' type='WindowTotal' window-options='IncludeCurrent' />
+      </column-instance>
+      <group caption='Year conjunto' name='[Year conjunto]' name-style='unqualified' user:ui-builder='lasso-group'>
+        <groupfilter function='member' level='[Year]' member='1991' />
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Country:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Paraguay&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Zambia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uganda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Oman&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Morocco&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Moldova&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sudan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Somalia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Uruguay&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tunisia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nigeria&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Ukraine&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nepal&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Rwanda&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Togo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mozambique&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Qatar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tanzania&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sao Tome and Principe&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Senegal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Mongolia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Philippines&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Suriname&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mauritius&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;North Macedonia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Namibia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Russia&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Montenegro&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Norway&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Slovenia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Cardiovascular_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[cum:sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neonatal_Disorders:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms_cap:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[win:sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[diff:sum:Respiratory Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases_cap:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Chronic_Respiratory_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Obesity:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory_Diseases:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[attr:Total:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Respiratory_Diseases_cap:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Total:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory_Diseases_cap:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;España&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_B9AB058D512E405B82B25BB8465E1F8D'>
+            <properties context=''>
+              <relation connection='excel-direct.1gb5kcm07vipds1784ma70gucn78' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:BM3894:no:A1:BM3894:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Country' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='real' name='Obesity' ordinal='3' />
+                  <column datatype='real' name='Unemployment' ordinal='4' />
+                  <column datatype='integer' name='Meningitis' ordinal='5' />
+                  <column datatype='integer' name='Alzheimers_Disease_and_Other_Dementias' ordinal='6' />
+                  <column datatype='integer' name='Parkinsons_Disease' ordinal='7' />
+                  <column datatype='integer' name='Nutritional_Deficiencies' ordinal='8' />
+                  <column datatype='integer' name='Malaria' ordinal='9' />
+                  <column datatype='integer' name='Drowning' ordinal='10' />
+                  <column datatype='integer' name='Interpersonal_Violence' ordinal='11' />
+                  <column datatype='integer' name='Maternal_Disorders' ordinal='12' />
+                  <column datatype='integer' name='HIV_AIDS' ordinal='13' />
+                  <column datatype='integer' name='Drug_Use_Disorders' ordinal='14' />
+                  <column datatype='integer' name='Tuberculosis' ordinal='15' />
+                  <column datatype='integer' name='Cardiovascular_Diseases' ordinal='16' />
+                  <column datatype='integer' name='Lower_Respiratory_Infections' ordinal='17' />
+                  <column datatype='integer' name='Neonatal_Disorders' ordinal='18' />
+                  <column datatype='integer' name='Alcohol_Use_Disorders' ordinal='19' />
+                  <column datatype='integer' name='Self-harm' ordinal='20' />
+                  <column datatype='integer' name='Exposure_to_Forces_of_Nature' ordinal='21' />
+                  <column datatype='integer' name='Diarrheal_Diseases' ordinal='22' />
+                  <column datatype='integer' name='Environmental_Heat_and_Cold_Exposure' ordinal='23' />
+                  <column datatype='integer' name='Neoplasms' ordinal='24' />
+                  <column datatype='integer' name='Conflict_and_Terrorism' ordinal='25' />
+                  <column datatype='integer' name='Diabetes_Mellitus' ordinal='26' />
+                  <column datatype='integer' name='Chronic_Kidney_Disease' ordinal='27' />
+                  <column datatype='integer' name='Poisonings' ordinal='28' />
+                  <column datatype='integer' name='Protein-Energy_Malnutrition' ordinal='29' />
+                  <column datatype='integer' name='Road_Injuries' ordinal='30' />
+                  <column datatype='integer' name='Chronic_Respiratory_Diseases' ordinal='31' />
+                  <column datatype='integer' name='Cirrhosis_and_Other_Chronic_Liver_Diseases' ordinal='32' />
+                  <column datatype='integer' name='Digestive_Diseases' ordinal='33' />
+                  <column datatype='integer' name='Fire' ordinal='34' />
+                  <column datatype='integer' name='Acute_Hepatitis' ordinal='35' />
+                  <column datatype='integer' name='Total' ordinal='36' />
+                  <column datatype='real' name='GDP' ordinal='37' />
+                  <column datatype='real' name='GDP_cap' ordinal='38' />
+                  <column datatype='real' name='lib_lvl' ordinal='39' />
+                  <column datatype='real' name='CO2_cap' ordinal='40' />
+                  <column datatype='integer' name='Population' ordinal='41' />
+                  <column datatype='real' name='Alzheimers_Disease_and_Other_Dementias_cap' ordinal='42' />
+                  <column datatype='real' name='Acute_Hepatitis_cap' ordinal='43' />
+                  <column datatype='real' name='Digestive_Diseases_cap' ordinal='44' />
+                  <column datatype='real' name='Cirrhosis_and_Other_Chronic_Liver_Diseases_cap' ordinal='45' />
+                  <column datatype='real' name='Poisonings_cap' ordinal='46' />
+                  <column datatype='real' name='Road_Injuries_cap' ordinal='47' />
+                  <column datatype='real' name='Conflict_and_Terrorism_cap' ordinal='48' />
+                  <column datatype='real' name='Environmental_Heat_and_Cold_Exposure_cap' ordinal='49' />
+                  <column datatype='real' name='Alcohol_Use_Disorders_cap' ordinal='50' />
+                  <column datatype='real' name='HIV_AIDS_cap' ordinal='51' />
+                  <column datatype='real' name='Nutritional_Deficiencies_cap' ordinal='52' />
+                  <column datatype='real' name='Interpersonal_Violence_cap' ordinal='53' />
+                  <column datatype='real' name='Neoplasms_cap' ordinal='54' />
+                  <column datatype='real' name='Neonatal_Disorders_cap' ordinal='55' />
+                  <column datatype='real' name='Respiratory_Diseases_cap' ordinal='56' />
+                  <column datatype='real' name='Tuberculosis_cap' ordinal='57' />
+                  <column datatype='real' name='Self-harm_cap' ordinal='58' />
+                  <column datatype='real' name='Diabetes_Mellitus_cap' ordinal='59' />
+                  <column datatype='real' name='Cardiovascular_Diseases_cap' ordinal='60' />
+                  <column datatype='real' name='Chronic_Respiratory_Diseases_cap' ordinal='61' />
+                  <column datatype='real' name='Drug_Use_Disorders_cap' ordinal='62' />
+                  <column datatype='real' name='mortality' ordinal='63' />
+                  <column datatype='integer' name='Respiratory Diseases' ordinal='64' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20240222T152753' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20240222T152753' name='Clipboard_20240222T152753leaf'>
+            <connection class='textscan' directory='C:/Users/Gonzalo/AppData/Local/Temp/TableauTemp/1v704md1ie6vht1btl2vy0d6pegk' filename='Clipboard_20240222T152753.txt' temporary='yes' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20240222T152753leaf' name='Clipboard_20240222T152753#txt' table='[Clipboard_20240222T152753#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20240222T152753leaf' name='Clipboard_20240222T152753#txt' table='[Clipboard_20240222T152753#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20240222T152753#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Measure Names]</local-name>
+            <parent-name>[Clipboard_20240222T152753#txt]</parent-name>
+            <remote-alias>Measure Names</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152753]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Clipboard_20240222T152753#txt]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152753]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measure Values]</local-name>
+            <parent-name>[Clipboard_20240222T152753#txt]</parent-name>
+            <remote-alias>Measure Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152753]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20240222T152753' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20240222T152753]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20240222T152753' id='Clipboard_20240222T152753'>
+            <properties context=''>
+              <relation connection='Clipboard_20240222T152753leaf' name='Clipboard_20240222T152753#txt' table='[Clipboard_20240222T152753#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+                  <column datatype='string' name='Measure Names' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='integer' name='Measure Values' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20240222T152853' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20240222T152853' name='Clipboard_20240222T152853leaf'>
+            <connection class='textscan' directory='C:/Users/Gonzalo/AppData/Local/Temp/TableauTemp/0argubj06mc2zl13tvqso0h70gjb' filename='Clipboard_20240222T152853.txt' temporary='yes' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20240222T152853leaf' name='Clipboard_20240222T152853#txt' table='[Clipboard_20240222T152853#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20240222T152853leaf' name='Clipboard_20240222T152853#txt' table='[Clipboard_20240222T152853#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+            <column datatype='string' name='Measure Names' ordinal='0' />
+            <column datatype='integer' name='Year' ordinal='1' />
+            <column datatype='integer' name='Measure Values' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20240222T152853#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;\\t&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_ES&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Measure Names]</local-name>
+            <parent-name>[Clipboard_20240222T152853#txt]</parent-name>
+            <remote-alias>Measure Names</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152853]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Clipboard_20240222T152853#txt]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152853]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measure Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measure Values]</local-name>
+            <parent-name>[Clipboard_20240222T152853#txt]</parent-name>
+            <remote-alias>Measure Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20240222T152853]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20240222T152853' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20240222T152853]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20240222T152853' id='Clipboard_20240222T152853'>
+            <properties context=''>
+              <relation connection='Clipboard_20240222T152853leaf' name='Clipboard_20240222T152853#txt' table='[Clipboard_20240222T152853#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_ES' separator='&#9;'>
+                  <column datatype='string' name='Measure Names' ordinal='0' />
+                  <column datatype='integer' name='Year' ordinal='1' />
+                  <column datatype='integer' name='Measure Values' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Cancer'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Neoplasms]' derivation='Avg' name='[avg:Neoplasms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Population]' derivation='Avg' name='[avg:Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]' included-values='in-range'>
+            <min>100000000.0</min>
+            <max>1414049353.0</max>
+          </filter>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]' included-values='in-range'>
+            <min>1991</min>
+            <max>2016</max>
+          </filter>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]</column>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms:qk]' />
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms:qk]' />
+              <text column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{16875F18-CD13-413F-81D8-04515EAB3125}' />
+    </worksheet>
+    <worksheet name='Hoja 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column caption='Neoplasms cap' datatype='real' name='[Neoplasms_cap]' role='measure' type='quantitative' />
+            <column caption='Respiratory Diseases cap' datatype='real' name='[Respiratory_Diseases_cap]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Neoplasms_cap]' derivation='Avg' name='[avg:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory_Diseases_cap]' derivation='Avg' name='[avg:Respiratory_Diseases_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Respiratory_Diseases_cap:qk]' field-type='quantitative' fold='true' max='0.0014' min='0.00040000000000000002' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' field-type='quantitative' max='0.0014045064003368323' min='0.00080000000000000004' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Respiratory_Diseases_cap:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk] + [federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Respiratory_Diseases_cap:qk])</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{A3370DED-777E-46DF-9F5C-C36D1C1F2A2E}' />
+    </worksheet>
+    <worksheet name='Hoja 1 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column caption='Cardiovascular Diseases' datatype='integer' name='[Cardiovascular_Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Neoplasms]' derivation='Sum' name='[sum:Neoplasms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Multiple Values]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{79F23F7F-1930-40C7-A208-07AEBF6E886C}' />
+    </worksheet>
+    <worksheet name='Hoja 1 (3)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Neoplasms cap' datatype='real' name='[Neoplasms_cap]' role='measure' type='quantitative' />
+            <column caption='Respiratory Diseases cap' datatype='real' name='[Respiratory_Diseases_cap]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Neoplasms_cap]' derivation='Avg' name='[avg:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory_Diseases_cap]' derivation='Avg' name='[avg:Respiratory_Diseases_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory_Diseases_cap]' derivation='Sum' name='[sum:Respiratory_Diseases_cap:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Respiratory_Diseases_cap:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory_Diseases_cap:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Country:nk]' />
+              <groupfilter function='member' level='[none:Country:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]</column>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Multiple Values]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{498EC2E5-E7FD-4025-ADEE-1005998FEA4F}' />
+    </worksheet>
+    <worksheet name='Hoja 1 (4)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column caption='Cardiovascular Diseases' datatype='integer' name='[Cardiovascular_Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Respiratory Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Neoplasms]' derivation='Sum' name='[sum:Neoplasms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[sum:Respiratory Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' value='23' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Multiple Values]</rows>
+        <cols>([federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok] / [federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{AAE69BB0-FEF5-480E-B6A0-0CF62CB86710}' />
+    </worksheet>
+    <worksheet name='Hoja 1 (5)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column caption='Cardiovascular Diseases' datatype='integer' name='[Cardiovascular_Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Respiratory Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Neoplasms]' derivation='Sum' name='[sum:Neoplasms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[sum:Respiratory Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total]' derivation='Sum' name='[sum:Total:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Total:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' value='23' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Multiple Values]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok]</cols>
+      </table>
+      <simple-id uuid='{B1762542-8E1A-4525-8AA3-1C2F6A029F78}' />
+    </worksheet>
+    <worksheet name='Mapa obesidad'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Obesity]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Obesity]' derivation='Avg' name='[avg:Obesity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>40.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok]'>
+            <groupfilter function='member' level='[none:Year:ok]' member='2016' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]</column>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[Longitude (generated)]' field-type='quantitative' max='20362348.307767116' min='-22604274.730421361' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[Latitude (generated)]' field-type='quantitative' max='25239524.032848321' min='-12283602.458207941' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]' max='38.0' min='0.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dae2f2</color>
+                <color>#c3d3f3</color>
+                <color>#abc4f5</color>
+                <color>#93b4f6</color>
+                <color>#7ca5f8</color>
+                <color>#6395f9</color>
+                <color>#4b85fa</color>
+                <color>#3275fc</color>
+                <color>#1965fd</color>
+                <color>#0055ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='border-width' value='0' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' />
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]' />
+              <geometry column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Latitude (generated)]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{329C26FC-A9F1-4A91-B05A-3FE4D9E8F90F}' />
+    </worksheet>
+    <worksheet name='Neo/cap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Neoplasms cap' datatype='real' name='[Neoplasms_cap]' role='measure' type='quantitative' />
+            <column-instance column='[Neoplasms_cap]' derivation='Avg' name='[avg:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' included-values='in-range'>
+            <min>0.002591</min>
+            <max>0.0034329582307693982</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' value='167' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' value='16' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]</cols>
+      </table>
+      <simple-id uuid='{BFC219C6-30B8-444E-B930-C4C8FAF8C15B}' />
+    </worksheet>
+    <worksheet name='Neo/cap (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Neoplasms cap' datatype='real' name='[Neoplasms_cap]' role='measure' type='quantitative' />
+            <column-instance column='[Neoplasms_cap]' derivation='Avg' name='[avg:Neoplasms_cap:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' included-values='in-range'>
+            <min>0.00029324300651281226</min>
+            <max>0.00041599999999999997</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]' value='219' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' value='14' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]</rows>
+        <cols>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms_cap:qk]</cols>
+      </table>
+      <simple-id uuid='{E180829A-D351-4B18-AFC2-D55221481EAB}' />
+    </worksheet>
+    <worksheet name='Poblacion'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Population]' derivation='Avg' name='[avg:Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]' included-values='in-range'>
+            <min>100000000.0</min>
+            <max>1313983977.8461537</max>
+          </filter>
+          <filter class='quantitative' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]' included-values='in-range'>
+            <min>1991</min>
+            <max>2016</max>
+          </filter>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:qk]</column>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]' />
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]' />
+              <text column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3FB86430-1CA3-4387-AA8C-E807E0D25041}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (prueba)' name='federated.17rynkq1ya08xa1h7td6q12uj52u' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17rynkq1ya08xa1h7td6q12uj52u'>
+            <column caption='Cardiovascular Diseases' datatype='integer' name='[Cardiovascular_Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Neoplasms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Respiratory Diseases]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[diff:sum:Respiratory Diseases:qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' ordering-type='Rows' type='Difference'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Cardiovascular_Diseases]' derivation='Sum' name='[sum:Cardiovascular_Diseases:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Neoplasms]' derivation='Sum' name='[sum:Neoplasms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Respiratory Diseases]' derivation='Sum' name='[sum:Respiratory Diseases:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Respiratory Diseases:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Cardiovascular_Diseases:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[sum:Neoplasms:qk]&quot;</bucket>
+              <bucket>&quot;[federated.17rynkq1ya08xa1h7td6q12uj52u].[diff:sum:Respiratory Diseases:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17rynkq1ya08xa1h7td6q12uj52u].[Multiple Values]</rows>
+        <cols>([federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok] / [federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{C28FAC53-6DD8-46DB-BCD9-B1BB3AC40C48}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='95200' x='800' y='1000'>
+              <zone h='98000' id='3' name='Hoja 1 (4)' w='95200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='32' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='3200' x='96000' y='1000'>
+              <zone h='14250' id='8' name='Hoja 1 (4)' pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type-v2='color' w='3200' x='96000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='9' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Hoja 1 (4)' w='95200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14250' id='8' name='Hoja 1 (4)' pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type-v2='color' w='3200' x='96000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{A34CABBC-C98D-40B7-9A93-FDCB964005D3}' />
+    </dashboard>
+    <dashboard name='Historia 1' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type-v2='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point captured-sheet='' id='1' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{FFF2DF7E-13CB-40A5-B4F8-26A169A4E681}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='89'>
+    <window class='worksheet' name='Mapa obesidad'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card mode='slider' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok]' type='filter' />
+            <card pane-specification-id='1' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Obesity:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{B9686B47-278D-4821-A963-06D1E57DEE09}' />
+    </window>
+    <window class='worksheet' name='Hoja 1 (4)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='filters' />
+            <card type='pages' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{963A7BD5-9FD5-4F6B-B7A2-1059EECCF020}' />
+    </window>
+    <window class='worksheet' name='Hoja 1 (5)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='filters' />
+            <card type='pages' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='172'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7779A3DE-CC79-41E4-A0C0-569BC5687426}' />
+    </window>
+    <window class='worksheet' name='Hoja 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='1' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B9FCC73B-A96E-4104-89CF-362008DC6703}' />
+    </window>
+    <window class='worksheet' name='Hoja 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2217714D-3A34-44ED-9695-7F66CDE3E3E6}' />
+    </window>
+    <window class='worksheet' name='Hoja 1 (3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{61B3F865-48B9-4B31-9947-6B1E7B54078B}' />
+    </window>
+    <window class='worksheet' name='Cancer'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Neoplasms:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4990C555-3421-46C0-88DB-D46208B2EDC8}' />
+    </window>
+    <window class='worksheet' name='Poblacion'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='173'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[avg:Population:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6F2D3755-0921-40EE-A55A-E7082B3C0AA4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Neo/cap'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C4CBD86-E487-433C-BF29-ACB0A66BBBA3}' />
+    </window>
+    <window class='worksheet' name='Neo/cap (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CB748645-F1B7-41E6-A800-AAC3C4B6A950}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Hoja 1 (4)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{FAB916D3-1CB9-464B-AAD8-DCCEF196D33F}' />
+    </window>
+    <window class='dashboard' name='Historia 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{3A5D3BD3-3439-4FA2-B5D4-26ED6E2A7FCD}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{763C17AC-54A3-4D89-A880-D836AC771A10}' />
+    </window>
+  </windows>
+</workbook>
