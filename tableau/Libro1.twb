@@ -3584,8 +3584,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='35' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='37' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='45000' id='1' is-fixed='true' name='Hoja 1 (5)' w='48572' x='571' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3697,8 +3697,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='33' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+            <zone h='100000' id='36' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='35' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='98000' id='1' is-centered='0' is-fixed='true' param='C:/Users/Gonzalo/Desktop/wallpaperbetter.jpg' type-v2='bitmap' w='99000' x='500' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3810,8 +3810,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='29' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='31' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
                 <zone fixed-size='280' h='100000' id='13' is-centered='0' is-fixed='true' param='C:/Users/Gonzalo/Desktop/wallpaperbetter.jpg' type-v2='bitmap' w='100000' x='0' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3923,8 +3923,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='14' param='vert' type-v2='layout-flow' w='98858' x='571' y='1000'>
+            <zone h='100000' id='17' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='16' param='vert' type-v2='layout-flow' w='98858' x='571' y='1000'>
                 <zone h='10125' id='11' mode='slider' name='Mapa obesidad (2)' param='[federated.17rynkq1ya08xa1h7td6q12uj52u].[none:Year:ok]' type-v2='filter' w='11429' x='71143' y='1375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3997,8 +3997,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='9' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='8' param='vert' type-v2='layout-flow' w='98934' x='533' y='1000'>
+            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98934' x='533' y='1000'>
                 <zone fixed-size='280' h='88750' id='3' is-fixed='true' name='Mapa Cancer' w='56933' x='42400' y='750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4079,8 +4079,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='13' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='15' param='vert' type-v2='layout-flow' w='99000' x='500' y='1000'>
                 <zone fixed-size='280' h='55125' id='5' is-fixed='true' name='Obe' w='24867' x='18933' y='375'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
